@@ -1,0 +1,69 @@
+/* tag selectors */
+
+body { 
+	font-family: Georgia, Times, Sans-serif;
+	margin: 0; 
+	padding: 0;
+	background: url(images/bg.jpg);
+}
+
+p {
+	padding: 0 15px 15px 15px;
+	text-align: justify;
+	line-height: 1.4em;
+	font-size: .9em;
+	margin: 0;
+	color: rgb(190,190,190); 
+}
+
+h1 {
+	font: 3em bold Georgia, Times, Sans-serif;
+	color: rgb(196,0,3); 
+	text-align: center;
+}
+
+h2 {
+	font: 1.7em bold Georgia, Times, Sans-serif;
+	color: rgba(0,0,0,.5);
+}
+
+h3 { 
+	font: Georgia, Times, Sans-serif;
+	color: rgba(0,0,0,.5);
+	border: dotted thin rgba(200,200,200,.5);
+	padding: 7px 10px 10px 13px;
+}
+
+footer {
+	font: .7em Georgia, Times, Sans-serif;
+	text-align: center;
+	border-top: 1px dashed rgb(200,200,200,.5);
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0,0,0,.5);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+	
+nav ul {
+	line-height: 1.4em;
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 1.4em;
+}
+
+/* class selector */
+
+/* Id Selector */
+
+div.page-wrapper {
+	padding: 20px 20px 20px 20px;
+	margin: 0 auto; 
+	width: 600px;
+	border: solid 1px rgba(200,200,200,.8);
+	background: #FCFCFC;
+	}
